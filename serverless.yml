@@ -24,7 +24,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   region: us-east-1
-  profile: aws_jmartinez
+  
   iam:
     role:
       statements:
@@ -32,11 +32,6 @@ provider:
           Action:
             - dynamodb:*
           Resource: '*'
-
-# plugins:
-#   - serverless-offline
-#   - serverless-dynamodb-local
-#   - serverless-aws-documentation
 
 package:
   patterns:
