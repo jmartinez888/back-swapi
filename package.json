@@ -1,0 +1,21 @@
+{
+    "name": "back-swapi",
+    "version": "1.0.0",
+    "description": "Esta API permite obtener datos de StarWars y crear modelos en una base de datos DynamoDB en AWS.",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.556.0",
+        "axios": "^1.6.8",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "@shelf/jest-dynamodb": "^3.4.4",
+        "jest": "^29.7.0",
+        "serverless": "^3.38.0"
+    }
+}

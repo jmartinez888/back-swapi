@@ -4,3 +4,7 @@ jspm_packages
 
 # Serverless directories
 .serverless
+
+.dynamodb
+offline
+package-lock.json
